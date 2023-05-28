@@ -28,6 +28,7 @@ public class UltimateQATest extends PageSetUp {
         WebElement emailTextField = driver.findElementByName("et_pb_contact_email_0");
         emailTextField.sendKeys("tester@tester.com");
 
+        
         Thread.sleep(3000);
 
         WebElement emailMeButton = driver.findElementByName("et_builder_submit_button");
